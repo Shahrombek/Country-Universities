@@ -45,7 +45,7 @@ export const Header = () => {
 
 export const Footer = () => {
     return (
-        <Box sx={{background: '#C4C4C4', textAlign: 'center', py:2, width: '100% !important'}}>
+        <Box sx={{background: '#C4C4C4', textAlign: 'center', py:2, maxWidth: "1920px", margin: "0 auto",}}>
             <img src={Logo}/>
             <Typography sx={{color: 'white', fontWeight: 500}}>What are the most popular Universities in the world?</Typography>
             <img src={Algorismic}/>
